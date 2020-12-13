@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 8080; // Step 1
 
 const routes = require('./routes/api');
 
+mongodb + srv://DevOps:HelloSmart123@cluster0.7mg1o.mongodb.net/Test?retryWrites=true&w=majority
+
 // Step 2
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mern_youtube', {
     useNewUrlParser: true,
